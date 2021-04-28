@@ -7,7 +7,7 @@ const App = () => {
       <Text>Hola mundo
       </Text>
       <View>
-      <Text>Componentes basicos</Text>
+      <Text>Componentes basicoss</Text>
       <Image
         source={{
           uri: 'https://reactnative.dev/docs/assets/p_cat2.png',
