@@ -1,29 +1,29 @@
-import React from 'react'
-import {View, Text, Image, ScrollView, TextInput} from 'react-native';
+import React from 'react';
+import { View, Text, Image, ScrollView, TextInput } from 'react-native';
 
 const App = () => {
   return (
     <ScrollView>
-      <Text>Hola mundo
-      </Text>
+      <Text>Some text</Text>
       <View>
-      <Text>Componentes basicoss</Text>
-      <Image
-        source={{
-          uri: 'https://reactnative.dev/docs/assets/p_cat2.png',
-        }}
-        style={{width:200, height:200}} />
+        <Text>Some more text</Text>
+        <Image
+          source={{
+            uri: 'https://reactnative.dev/docs/assets/p_cat2.png',
+          }}
+          style={{ width: 200, height: 200 }}
+        />
       </View>
       <TextInput
         style={{
           height: 40,
           borderColor: 'gray',
-          borderWidth:1
+          borderWidth: 1
         }}
-        defaultValue="Escribe aquí"
-        />
+        defaultValue="You can type in me"
+      />
     </ScrollView>
-  )
+  );
 }
 
 export default App;
