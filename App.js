@@ -1,23 +1,19 @@
-
 import React from 'react';
-import { Text, StyleSheet } from 'react-native';
+import { StyleSheet, Text, View } from "react-native";
 
-const BoldAndColor = () => {
+export default function App() {
   return (
-    <Text style = {styles.baseText}>
-    Yo soy Cristian
-    <Text style = {styles.innerText}> y soy ingeniero electronico </Text>
-    </Text>
+    <View style={styles.container}>
+    <Text>Intentando construir un portafolio movil </Text>
+    </View>
   );
-};
+}
 
-const styles = StyleSheet.create ({
-  baseText: {
-    fontWeight: 'bold'
-  },
-  innerText: {
-    color: 'red'
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#DEE9FD",
+    alignItems: "center",
+    justifyContent: "center"
   }
 });
-
-export default BoldAndColor;
